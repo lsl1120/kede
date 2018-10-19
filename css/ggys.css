@@ -1,0 +1,262 @@
+/*最上层头部*/
+#header{
+	width: 100%;
+	height: 30px;
+	font-size: 12px;
+	line-height: 30px;
+	background-color: #f2f2f2;
+}
+
+#header .container{
+	height: 30px;
+}
+
+.c-left{
+	width: 550px;
+	height: 100%;
+}
+
+.c-left-l{
+	width: 100px;
+	height: 100%;	
+	background-image: url("../img/tubiao.png");
+	background-repeat: no-repeat;
+	background-position: 3px 6px;
+	
+}
+
+.c-left-l p{
+	text-align: center;
+	padding-left: 13px;
+	
+}
+
+.c-left-l a{
+	color: #93667d;
+}
+
+.c-left-l a:hover{
+	color: #ff6600;
+}
+
+.c-left-r{
+	width: 250px;
+	height: 100%;
+}
+
+.c-left-r span{
+	color: #999999;
+}
+.c-left-r a{
+	color: #666666;
+}
+
+.c-left-r a:hover{
+	color: #ff6600;
+}
+
+.c-right{
+	width: 650px;
+	height: 100%;
+	/*background-color: chartreuse;*/
+	
+}
+
+.c-r-s1{
+	display: inline-block;
+	width: 70px;
+	height: 100%;
+	position: relative;
+	z-index: 200;
+}
+
+.c-r-s1 a{
+	color: #666666;
+}
+
+.c-r-s1 a:hover{
+	color: #ff6600;
+}
+
+.c-r-s2{
+	display: inline-block;
+	width: 80px;
+	height: 100%;
+	position: relative;
+	padding: 0 5px 0 10px;
+	box-sizing: border-box;
+	
+}
+
+.c-r-s2 a{
+	color: #666666;
+	
+}
+
+.c-r-s2 a:hover{
+	color: #ff6600;
+}
+.c-r-s2 i{
+	background-image: url("../img/tubiao.png");
+	background-repeat: no-repeat;
+	display: inline-block;
+	width: 7px;
+	height: 4px;
+	background-position: 0 -27px;
+	position: absolute;
+	top: 13px;
+	right: 8px;
+}
+
+.sub-item{
+	width: 80px;
+	position: absolute;
+	top: 30px;
+	right: -1px;
+	display: none;
+	border: 1px solid #dddddd;
+	padding: 4px 0 0 10px;
+}
+
+.c-r-s2:hover ul{
+	display: block;
+	background-color: #FFFFFF;
+	z-index: 100;
+}
+
+.c-r-s2>ul>li:hover{
+	text-decoration: underline;
+}
+
+.c-r-s2:hover{
+	background-color: #FFFFFF;
+	border: 1px solid #ccc;
+}
+
+.c-r-s3{
+	display: inline-block;
+	width: 80px;
+	height: 100%;
+	position: relative;
+	padding: 0 5px 0 10px;
+	box-sizing: border-box;
+	
+}
+
+.c-r-s3 a{
+	color: #666666;
+}
+
+.c-r-s3 a:hover{
+	color: #ff6600;
+}
+.c-r-s3 i{
+	background-image: url("../img/tubiao.png");
+	background-repeat: no-repeat;
+	display: inline-block;
+	width: 7px;
+	height: 4px;
+	background-position: 0 -27px;
+	position: absolute;
+	top: 13px;
+	right: 8px;
+}
+
+.c-r-s3:hover ul{
+	display: block;
+	background-color: #FFFFFF;
+	z-index: 100;
+}
+
+.c-r-s3:hover{
+	background-color: #FFFFFF;
+	border: 1px solid #ccc;
+}
+
+.c-r-s3>ul>li:hover{
+	text-decoration: underline;
+	
+}
+
+.sg{
+	color: #e5e5e5;
+}
+
+.c-r-s4{
+	height: 100%;
+	background-image: url("../img/tubiao.png");
+	background-repeat: no-repeat;
+	background-position: 2px -47px;
+	padding-left: 23px;
+	line-height: 30px;
+	padding-right: 5px;
+	
+}
+
+.c-r-s4 a{
+	color: #666666;
+}
+
+#gwc_n{
+	color: #ff6600;
+}
+
+.c-r-s4 a:hover{
+	color: #ff6600;
+}
+
+.c-r-s5{
+	height: 100%;
+	background-image: url("../img/tubiao.png");
+	background-repeat: no-repeat;
+	background-position: 0 -72px;
+	padding-left: 20px;
+	border-left: 1px solid #e9e9e9;
+}
+.c-r-s5 a{
+	color: #666666;
+	margin-right: 5px;
+}
+
+.sjb_ewm{
+	display: inline-block;
+	width: 168px;
+	height: 203px;
+	background-image: url("../img/tubiao.png");
+	background-repeat: no-repeat;
+	background-position: 0 -146px;
+	display: none;
+	z-index: 100;
+}
+
+.c-r-s5:hover a{
+	color: #ff6600;
+}
+
+.c-r-s5:hover .sjb_ewm{
+	display: block;
+	position: absolute;
+	margin: -5px 0 0 297px;
+}
+
+.c-r-s6{
+	height: 100%;
+	position: relative;
+	padding-left: 20px;
+}
+
+.c-r-s6 i{
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background-image: url("../img/tubiao.png");
+	background-repeat: no-repeat;
+	background-position: -100px 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.c-r-s6 a{
+	color: #ff6600;
+}

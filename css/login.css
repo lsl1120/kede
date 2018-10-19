@@ -1,0 +1,244 @@
+body {
+  background-color: #F0F0F0;
+}
+
+#login {
+  width: 100%;
+  height: 100%;
+}
+
+#login_logo {
+  width: 100%;
+  height: 150px;
+  padding-top: 40px;
+}
+#login_logo div {
+  width: 1200px;
+  height: 60px;
+  margin: 0 auto;
+  padding: 0 65px;
+}
+#login_logo div a {
+  float: left;
+}
+#login_logo div h2 {
+  float: left;
+  color: #666666;
+  font-size: 18px;
+  font-weight: 100;
+  margin-left: 20px;
+  line-height: 81px;
+}
+#login_logo div div {
+  width: 510px;
+  height: 55px;
+  line-height: 17px;
+  background-color: #fdf7e9;
+  border: 1px solid #edae1b;
+  font-size: 12px;
+  padding: 5px 10px;
+  margin-left: 530px;
+  color: #666666;
+}
+
+#main {
+  width: 100%;
+  height: 480px;
+  background-color: #dff3fe;
+}
+#main div {
+  width: 1000px;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+#main div div {
+  width: 340px;
+  height: 360px;
+  position: absolute;
+  top: 60px;
+  right: 0;
+  background: rgba(255, 255, 255, 0.5) !important;
+}
+#main div div div:nth-child(1) {
+  width: 340px;
+  height: 60px;
+  position: absolute;
+  top: 0;
+  border-bottom: 1px solid #CCCCCC;
+  font-size: 20px;
+  text-align: center;
+  line-height: 60px;
+}
+#main div div div:nth-child(1) p {
+  cursor: pointer;
+  color: #89b929 !important;
+}
+#main div div div:nth-child(2) {
+  width: 340px;
+  height: 200px;
+}
+#main div div div:nth-child(2) form {
+  width: 280px;
+  height: 200px;
+  margin: 0 30px;
+}
+#main div div div:nth-child(2) form div:nth-child(1) {
+  width: 280px;
+  height: 72px;
+  position: absolute;
+  left: 0;
+  padding-top: 20px;
+  border-bottom: 0;
+}
+#main div div div:nth-child(2) form div:nth-child(1) i {
+  display: inline-block;
+  width: 40px;
+  height: 36px;
+  background-image: url("../img/allbgs.png");
+  background-repeat: no-repeat;
+  background-position: -62px 4px;
+  position: absolute;
+  top: 32px;
+  left: 0;
+}
+#main div div div:nth-child(2) form div:nth-child(1) span {
+  position: absolute;
+  left: 38px;
+  top: 44px;
+  width: 2px;
+  height: 16px;
+  font-weight: bold;
+  background-color: #b7b5b5;
+}
+#main div div div:nth-child(2) form div:nth-child(1) input {
+  width: 280px;
+  height: 38px;
+  border: 1px solid #bdbdbd;
+  padding-left: 48px;
+  line-height: 38px;
+}
+#main div div div:nth-child(2) form div:nth-child(3) {
+  width: 280px;
+  height: 48px;
+  position: absolute;
+  top: 72px;
+  left: 0;
+}
+#main div div div:nth-child(2) form div:nth-child(3) i {
+  display: inline-block;
+  width: 40px;
+  height: 36px;
+  background-image: url("../img/allbgs.png");
+  background-repeat: no-repeat;
+  background-position: -62px -31px;
+  position: absolute;
+  top: 10px;
+  left: 0;
+}
+#main div div div:nth-child(2) form div:nth-child(3) span {
+  position: absolute;
+  left: 38px;
+  top: 22px;
+  width: 2px;
+  height: 16px;
+  font-weight: bold;
+  background-color: #b7b5b5;
+}
+#main div div div:nth-child(2) form div:nth-child(3) input {
+  width: 280px;
+  height: 38px;
+  border: 1px solid #bdbdbd;
+  padding-left: 48px;
+  line-height: 38px;
+  margin-top: 10px;
+}
+#main div div div:nth-child(2) form div:nth-child(4) {
+  width: 280px;
+  height: 24px;
+  position: absolute;
+  top: 121px;
+  left: 0;
+}
+#main div div div:nth-child(2) form div:nth-child(4) input {
+  width: 12px;
+  height: 12px;
+}
+#main div div div:nth-child(2) form div:nth-child(5) {
+  width: 280px;
+  height: 40px;
+  position: absolute;
+  left: 0;
+  top: 146px;
+  padding-top: 5px;
+}
+#main div div div:nth-child(2) form div:nth-child(5) input {
+  width: 280px;
+  height: 40px;
+  background-color: #FF6600;
+  cursor: pointer;
+  color: #FFFFFF;
+  letter-spacing: 20px;
+  padding-left: 20px;
+  margin-top: 10px;
+  font-size: 15px;
+  border-radius: 10px;
+}
+#main div div div:nth-child(2) form div:nth-child(6) {
+  width: 340px;
+  height: 100px;
+  position: absolute;
+  top: 200px;
+}
+
+#login_footed {
+  width: 100%;
+  height: 200px;
+  background-color: #F0F0F0;
+}
+#login_footed .zjbf {
+  height: 150px;
+  margin-top: 20px;
+}
+#login_footed .zjbf div:nth-child(1) {
+  padding: 14px;
+  text-align: center;
+}
+#login_footed .zjbf div:nth-child(1) p {
+  font-size: 12px;
+  color: #999999;
+  padding-top: 5px;
+}
+#login_footed .zjbf div:nth-child(1) p a {
+  color: #999999;
+}
+#login_footed .zjbf div:nth-child(1) p a:hover {
+  color: #FF6600;
+}
+#login_footed .zjbf div:nth-child(1) a {
+  font-size: 12px;
+  text-align: center;
+  margin-right: 5px;
+  color: #999999;
+}
+#login_footed .zjbf div:nth-child(1) a:hover {
+  color: #FF6600;
+}
+#login_footed .zjbf div:nth-child(1) span {
+  font-size: 12px;
+  color: #999999;
+}
+#login_footed .zjbf div:nth-child(2) {
+  width: 462px;
+  height: 40px;
+  background-image: url("../img/FTC-01-bg3.jpg");
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+#login_footed .zjbf div:nth-child(2) a {
+  width: 115px;
+  height: 40px;
+  float: left;
+}
+
+/*# sourceMappingURL=login.css.map */
