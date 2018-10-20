@@ -260,3 +260,456 @@
 .c-r-s6 a{
 	color: #ff6600;
 }
+
+/*通栏广告*/
+#tlgg{
+	width: 100%;
+	height: 95px;
+}
+
+#tlgg .container img{
+	width: 100%;
+	height: 95px;
+}
+
+/*头部导航*/
+#tbdh{
+	width: 100%;
+	height: 100px;
+}
+
+#tbdh .container{
+	height: 100px;
+	padding-top: 20px;
+	position: relative;
+	box-sizing: border-box;
+}
+
+.logo{
+	width: 400px;
+	height: 80px;
+}
+
+.logo img{
+	position: absolute;
+	left: 8px;
+	bottom: 14px;
+	width: 196px;
+	height: 56px;
+}
+
+.baozhang{
+	width: 340px;
+	height: 80px;
+	background-image: url("../img/ind_top_bq1.gif");
+	background-repeat: no-repeat;
+	
+}
+
+.bz-a1{
+	display: inline-block;
+	width: 76px;
+	height: 80px;
+	position: absolute;
+	top: 17px;
+	left: 400px;
+	
+}
+
+.bz-a2{
+	display: inline-block;
+	width: 62px;
+	height: 80px;
+	position: absolute;
+	top: 17px;
+	left: 477px;
+}
+
+.bz-a3{
+	display: inline-block;
+	width: 198px;
+	height: 80px;
+	position: absolute;
+	top: 17px;
+	left: 538px;
+}
+
+#ss{
+	width: 330px;
+	position: absolute;
+	right: 0;
+	top: 31px;
+}
+
+#text-ss{
+	width: 330px;
+	height: 60px;
+}
+
+.ssk{
+	width: 251px;
+	height: 34px;
+	border: 2px solid #90C221;
+	box-sizing: border-box;
+	position: relative;
+}
+
+.ssk i{
+	display: inline-block;
+	width: 30px;
+	height: 26px;
+	background-image: url("../img/tubiao.png");
+	background-repeat: no-repeat;
+	background-position: 5px -353px;
+	position: absolute;
+	top: 4px;
+	left: 2px;
+}
+
+#ssk-text{
+	width: 247px;
+	height: 30px;
+	padding-left: 33px;
+}
+
+.ssan{
+	width: 78px;
+	height: 34px;
+}
+
+#ss-btn{
+	width: 78px;
+	height: 34px;
+	background-color: #90c31f;
+	color: #FFFFFF;
+	line-height: 34px;
+	font-size: 14px;
+	font-weight: bold;
+	
+}
+
+.rmss{
+	width: 330px;
+	height: 25px;
+	line-height: 25px;
+	color: #999999;
+	font-size: 12px;
+}
+
+.rmss a{
+	color: #999999;
+}
+
+.rmss a:hover{
+	color: #ff6600;
+}
+
+/*导航栏*/
+#nav{
+	width: 100%;
+	height: 35px;
+	line-height: 35px;
+	background-color: #90c31f;
+}
+
+#nav .container{
+	height: 35px;
+}
+
+.spfl{
+	width: 210px;
+	height: 35px;
+	font-size: 14px;
+	color: #FFFFFF;
+	position: relative;
+	background-color: #6d9d03;
+}
+
+/*模拟下拉菜单*/
+.spfl .sp{
+	width: 210px;
+	height: 320px;
+	background-color: #FFFFFF;
+	position: relative;
+	/*display: none;*/
+	z-index: 10;
+	border: 1px solid #CCCCCC;
+}
+
+.spfl .sp .list_item{
+	width: 210px;
+	height: 46px;
+	box-sizing: border-box;
+}
+
+.spfl .sp .list_item p{
+	width: 110px;
+	height: 45px;
+	cursor: pointer;
+	color:  #666666;
+	font-size: 12px;
+	line-height: 45px;
+	float: left;
+}
+
+ .item_left_img1{
+	display: block;
+	width: 30px;
+	height: 30px;
+	background-image: url("../img/tubiao.png");
+	background-repeat: no-repeat;
+	background-position: 0 -414px;
+	float: left;
+	margin: 7px 5px 0 27px;
+}
+
+.item_left_img2{
+	display: block;
+	width: 30px;
+	height: 30px;
+	background-image: url("../img/tubiao.png");
+	background-repeat: no-repeat;
+	background-position: 0 -453px;
+	float: left;
+	margin: 7px 5px 0 27px;
+}
+
+.item_left_img3{
+	display: block;
+	width: 30px;
+	height: 30px;
+	background-image: url("../img/tubiao.png");
+	background-repeat: no-repeat;
+	background-position: 0 -494px;
+	float: left;
+	margin: 7px 5px 0 27px;
+}
+
+.item_left_img4{
+	display: block;
+	width: 30px;
+	height: 30px;
+	background-image: url("../img/tubiao.png");
+	background-repeat: no-repeat;
+	background-position: 0 -531px;
+	float: left;
+	margin: 7px 5px 0 27px;
+}
+
+.item_left_img5{
+	display: block;
+	width: 30px;
+	height: 30px;
+	background-image: url("../img/tubiao.png");
+	background-repeat: no-repeat;
+	background-position: 0 -570px;
+	float: left;
+	margin: 7px 5px 0 27px;
+}
+
+.item_left_img6{
+	display: block;
+	width: 30px;
+	height: 30px;
+	background-image: url("../img/tubiao.png");
+	background-repeat: no-repeat;
+	background-position: 0 -607px;
+	float: left;
+	margin: 7px 5px 0 27px;
+}
+
+.item_left_img7{
+	display: block;
+	width: 30px;
+	height: 30px;
+	background-image: url("../img/tubiao.png");
+	background-repeat: no-repeat;
+	background-position: 0 -644px;
+	float: left;
+	margin: 7px 5px 0 27px;
+}
+
+.spfl .sp .list_item .item_blank{
+	display: block;
+	width: 6px;
+	height: 45px;
+	background-image: url("../img/tubiao.png");
+	background-repeat: no-repeat;
+	background-position: 0 -681px;
+	float: left;
+}
+
+.spfl .sp .list_item .list_item_fgx{
+	width: 191px;
+	border-bottom: 1px solid #cbcbcb;
+	float: left;
+	margin-left: 10px;
+}
+
+.spfl .sp .list_item .list_item_child-1{
+	width: 760px;
+	height: 320px;
+	position: absolute;
+	left: 209px;
+	top: 0;
+	display: none;
+	z-index: 10;
+	background-color: #FFFFFF;
+	border: 1px solid #77B001;
+
+}
+
+.spfl .sp .list_item .list_item_child-2{
+	width: 760px;
+	height: 320px;
+	position: absolute;
+	left: 209px;
+	top: 0;
+	display: none;
+	z-index: 10;
+	background-color: #FFFFFF;
+	border: 1px solid #77B001;
+}
+
+.spfl .sp .list_item .list_item_child-3{
+	width: 760px;
+	height: 320px;
+	position: absolute;
+	left: 209px;
+	top: 0;
+	display: none;
+	z-index: 10;
+	background-color: #FFFFFF;
+	border: 1px solid #77B001;
+}
+
+.spfl .sp .list_item .list_item_child-4{
+	width: 760px;
+	height: 320px;
+	position: absolute;
+	left: 209px;
+	top: 0;
+	display: none;
+	z-index: 10;
+	background-color: #FFFFFF;
+	border: 1px solid #77B001;
+}
+
+.spfl .sp .list_item .list_item_child-5{
+	width: 760px;
+	height: 320px;
+	position: absolute;
+	left: 209px;
+	top: 0;
+	display: none;
+	z-index: 10;
+	background-color: #FFFFFF;
+	border: 1px solid #77B001;
+}
+
+.spfl .sp .list_item .list_item_child-6{
+	width: 760px;
+	height: 320px;
+	position: absolute;
+	left: 209px;
+	top: 0;
+	display: none;
+	z-index: 10;
+	background-color: #FFFFFF;
+	border: 1px solid #77B001;
+}
+
+.spfl .sp .list_item .list_item_child-7{
+	width: 760px;
+	height: 320px;
+	position: absolute;
+	left: 209px;
+	top: 0;
+	display: none;
+	z-index: 10;
+	background-color: #FFFFFF;
+	border: 1px solid #77B001;
+}
+
+.spfl .sp .list_item:hover .list_item_child-1{
+	display: block;
+}
+
+.spfl .sp .list_item:hover .list_item_child-2{
+	display: block;
+
+}
+
+.spfl .sp .list_item:hover .list_item_child-3{
+	display: block;
+
+}
+
+.spfl .sp .list_item:hover .list_item_child-4{
+	display: block;
+
+}
+
+.spfl .sp .list_item:hover .list_item_child-5{
+	display: block;
+
+}
+
+.spfl .sp .list_item:hover .list_item_child-6{
+	display: block;
+
+}
+
+.spfl .sp .list_item:hover .list_item_child-7{
+	display: block;
+
+}
+
+.spfl .sp .list_item:hover .item_blank{
+	display: none;
+}
+
+.spfl .sp .list_item:hover{
+	border-right: 1px solid #FFFFFF;
+	border-top: 1px solid #77B001;
+	border-left: 1px solid #77B001;
+	border-bottom: 1px solid #77B001;
+}
+
+/*全部商品分类样式*/
+.spfl span{
+	padding-left: 50px;
+}
+
+.spfl .span_sp{
+	display: inline-block;
+	width: 14px;
+	height: 12px;
+	background-image: url("../img/tubiao.png");
+	background-repeat: no-repeat;
+	background-position: 0 -124px;
+	position: absolute;
+	top: 12px;
+	left: 147px;
+	
+}
+
+/*右边的导航条*/
+.nav-item .item{
+	height: 34px;
+	padding: 0 34px 0 34px;
+	float: left;
+	cursor: pointer;
+	text-align: center;
+	font-weight: bold;
+	font-size: 14px;
+	
+}
+
+.nav-item .item a{
+	color: #FFFFFF;
+}
+
+.nav-item .item:hover{
+	background-color: #77b001;
+}

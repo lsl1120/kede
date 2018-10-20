@@ -435,7 +435,7 @@
 	background-color: #FFFFFF;
 	position: relative;
 	/*display: none;*/
-	z-index: 1;
+	z-index: 10;
 	border: 1px solid #CCCCCC;
 }
 
@@ -553,7 +553,7 @@
 	width: 760px;
 	height: 320px;
 	position: absolute;
-	left: 210px;
+	left: 209px;
 	top: 0;
 	display: none;
 	z-index: 10;
@@ -566,7 +566,7 @@
 	width: 760px;
 	height: 320px;
 	position: absolute;
-	left: 210px;
+	left: 209px;
 	top: 0;
 	display: none;
 	z-index: 10;
@@ -578,7 +578,7 @@
 	width: 760px;
 	height: 320px;
 	position: absolute;
-	left: 210px;
+	left: 209px;
 	top: 0;
 	display: none;
 	z-index: 10;
@@ -590,7 +590,7 @@
 	width: 760px;
 	height: 320px;
 	position: absolute;
-	left: 210px;
+	left: 209px;
 	top: 0;
 	display: none;
 	z-index: 10;
@@ -602,7 +602,7 @@
 	width: 760px;
 	height: 320px;
 	position: absolute;
-	left: 210px;
+	left: 209px;
 	top: 0;
 	display: none;
 	z-index: 10;
@@ -614,7 +614,7 @@
 	width: 760px;
 	height: 320px;
 	position: absolute;
-	left: 210px;
+	left: 209px;
 	top: 0;
 	display: none;
 	z-index: 10;
@@ -626,7 +626,7 @@
 	width: 760px;
 	height: 320px;
 	position: absolute;
-	left: 210px;
+	left: 209px;
 	top: 0;
 	display: none;
 	z-index: 100;
@@ -734,7 +734,7 @@
 	position: absolute;
 	right: 550px;
 	bottom: 15px;
-	z-index: -1;
+	z-index: 2;
 	
 }
 
@@ -777,7 +777,7 @@
 .slideBox .bd{
 	position: relative;
 	height: 100%;
-	z-index: -2;
+	z-index: 1;
 }
 
 .slideBox .bd ul{
@@ -810,6 +810,7 @@
 	position: absolute;
 	right: -770px;
 	top: 0;
+	z-index:2;
 }
 
 .slideBox .container .banner_right img{
