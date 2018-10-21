@@ -726,6 +726,7 @@
 	
 }
 .slideBox .container{
+	width: 1187px;
 	position: relative;
 }
 
@@ -808,13 +809,13 @@
 	height: 320px;
 	float: right;
 	position: absolute;
-	right: -770px;
+	right: -782px;
 	top: 0;
 	z-index:2;
 }
 
 .slideBox .container .banner_right img{
-	width: 230px;
+	width: 218px;
 	height: 320px;
 }
 
@@ -1241,6 +1242,159 @@
 	background-color: teal;
 }
 
+/*左侧边栏*/
+#pf_left{
+	width: 40px;
+	height: 165px;
+	position: fixed;
+	top: 18%;
+	left: 50%;
+	margin-left: -645px;
+	opacity: 0;
+
+}
+
+#pf_left a{
+	display: block;
+	width: 40px;
+	height: 41px;
+	background:url("../img/tubiao.png") no-repeat;
+}
+
+#pf_left .pf_left_1{
+	background-position: -70px -414px;
+}
+
+#pf_left .pf_left_1:hover{
+	background-position: -30px -414px;
+}
+
+#pf_left .pf_left_2{
+	background-position: -70px -454px;
+}
+
+#pf_left .pf_left_2:hover{
+	background-position: -30px -454px;
+}
+
+
+#pf_left .pf_left_3{
+	background-position: -70px -494px;
+}
+
+#pf_left .pf_left_3:hover{
+	background-position: -30px -494px;
+}
+
+#pf_left .pf_left_4{
+	background-position: -70px -534px;
+}
+
+#pf_left .pf_left_4:hover{
+	background-position: -30px -534px;
+}
+
+/*右侧边栏*/
+#pf_right{
+	width: 55px;
+	height: 305px;
+	position: fixed;
+	bottom: 20px;
+	left: 50%;
+	margin-left: 605px;
+	z-index: 20;
+}
+
+#pf_right a{
+	display: block;
+	width: 55px;
+	height: 62px;
+	background: url("../img/tubiao.png") no-repeat;	
+}
+
+#pf_right .pf_right_1{
+	background-position: -309px -596px;
+}
+
+#pf_right .pf_right_1:hover{
+	background-position: -364px -596px;
+}
+
+#pf_right .pf_right_2{
+	background-position: -309px -475px;
+}
+
+#pf_right .pf_right_2:hover{
+	background-position: -364px -475px;
+}
+
+#pf_right .pf_right_3{
+	background-position: -309px -536px;
+}
+
+#pf_right .pf_right_3:hover{
+	background-position: -364px -536px;
+}
+
+#pf_right .pf_right_4{
+	position: relative;
+	background-position: -309px -658px;
+}
+
+#pf_right .pf_right_4 p{
+	width: 17px;
+	height: 17px;
+	text-align: center;
+	line-height: 17px;
+	background-color: red;
+	color: white;
+	border-radius: 7px;
+	font-size: 12px;
+	position: absolute;
+	right: 5px;
+	top: 5px;
+}
+
+#pf_right .pf_right_4:hover{
+	background-position: -364px -658px;
+}
+
+/*回到顶部样式*/
+#pf_right .pf_right_5{
+	opacity: 0;
+	background-position: -309px -719px;
+}
+
+#pf_right .pf_right_5:hover{
+	background-position: -364px -719px;
+}
+
+/*右侧边栏微信样式*/
+#pf_right .pf_right_weixin{
+	width: 198px;
+	height: 254px;
+	background: url("../img/tubiao.png") no-repeat;
+	background-position: -111px -461px;
+	position: fixed;
+	left: 50%;
+	bottom: 240px;
+	margin-left: 403px;
+	display: none;
+}
+
+/*右侧边栏验光师样式*/
+#pf_right .pf_right_ygs{
+	width: 196px;
+	height: 47px;
+	background: url("../img/tubiao.png") no-repeat;
+	background-position: -111px -414px;
+	position: fixed;
+	left: 50%;
+	bottom: 140px;
+	margin-left: 403px;
+	display: none;
+}
+
 /*尾部*/
 #footed{
 	width: 100%;
@@ -1317,3 +1471,4 @@
 	display: inline-block;
 	margin-right: 30px;
 }
+

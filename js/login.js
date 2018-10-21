@@ -21,6 +21,9 @@ $(function(){
 				if(obj == 'yes'){
 					alert('登录成功');
 					window.location.href = '../index.html';
+					setCookie('username',$lgName, 7, '/');
+					
+					
 				}else{
 					alert('用户名或密码错误，请重新输入');
 					return false;

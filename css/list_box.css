@@ -57,16 +57,13 @@
 
 #tupian_2f .f2_bottom ul{
 	height: 1080px;
-	background-color: palevioletred;
 }
 
 #tupian_2f .f2_bottom ul li{
 	width: 238px;
 	height: 343px;
-	background-color: cyan;
 	border: 1px solid #CCCCCC;
 	float: left;
-	/*box-sizing: border-box;*/
 }
 
 #tupian_2f .f2_bottom ul li:hover{
@@ -78,7 +75,6 @@
 #tupian_2f .f2_bottom ul li .fb_img{
 	width: 227px;
 	height: 230px;
-	background-color: yellow;
 	margin: 4px;
 }
 
@@ -90,7 +86,6 @@
 #tupian_2f .f2_bottom ul li .fb_box{
 	width: 237px;
 	height: 70px;
-	background-color: #77B001;
 }
 
 #tupian_2f .f2_bottom ul li .fb_box .fb_name1{
