@@ -1,0 +1,111 @@
+#list_box{
+	width: 100%;
+	height: 100%;
+	
+}
+
+#lunbotu{
+	width: 1550px;
+	height: 500px;
+	margin: 0 auto;
+}
+
+/*第一层图片样式列表*/
+#tupian_1f{
+	width: 100%;
+	height: 100%;
+}
+
+#tupian_1f .container{
+	height: 800px;
+	margin-top: 20px;
+}
+
+#tupian_1f ul{
+	height: 800px;
+}
+
+#tupian_1f ul li{
+	width: 380px;
+	height: 220px;
+	float: left;
+	margin: 0 28px 20px 0;
+}
+
+/*第二层图片列表*/
+#tupian_2f{
+	width: 100%;
+	height: 100%;
+}
+
+#tupian_2f .container{
+	height: 1200px;
+}
+
+#tupian_2f .f2_top{
+	width: 100%;
+	height: 120px;
+	background: url("../img/list_img/banner1.png") no-repeat;
+	
+}
+
+#tupian_2f .f2_bottom{
+	width: 100%;
+	height: 1080px;
+	
+}
+
+#tupian_2f .f2_bottom ul{
+	height: 1080px;
+}
+
+#tupian_2f .f2_bottom ul li{
+	width: 238px;
+	height: 343px;
+	border: 1px solid #CCCCCC;
+	float: left;
+}
+
+#tupian_2f .f2_bottom ul li:hover{
+	box-shadow: rgba(0, 0, 0, 0.7) 0 0 8px;
+	z-index: 1;
+	transition: all 0.3s linear;
+}
+
+#tupian_2f .f2_bottom ul li .fb_img{
+	width: 227px;
+	height: 230px;
+	margin: 4px;
+}
+
+#tupian_2f .f2_bottom ul li .fb_img img{
+	width: 227px;
+	height: 230px;
+}
+
+#tupian_2f .f2_bottom ul li .fb_box{
+	width: 237px;
+	height: 70px;
+}
+
+#tupian_2f .f2_bottom ul li .fb_box .fb_name1{
+	font-size: 12px;
+	text-align: center;
+	margin-top: 15px;
+}
+
+#tupian_2f .f2_bottom ul li .fb_box .fb_name2{
+	font-size: 30px;
+	margin-top: 10px;
+	margin-right: 12px;
+	text-align: center;
+}
+
+#tupian_2f .f2_bottom ul li .fb_box .fb_name2 b{
+	font-weight: 100;
+	letter-spacing: -2px;
+}
+
+#tupian_2f .f2_bottom ul li .fb_box .fb_name2 .fuhao{
+	font-size: 20px;
+}
