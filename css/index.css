@@ -1220,26 +1220,229 @@
 }
 
 #floor-1f .f1_left{
-	width: 215px;
+	width: 210px;
 	height: 720px;
 }
 
+
 #floor-1f .f1_left .f1_left_top{
-	width: 215px;
+	width: 210px;
 	height: 360px;
-	background-color: cyan;
+	/*background-color: cyan;*/
+	overflow: hidden;
+	position: relative;
+}
+
+#floor-1f .f1_left .f1_left_top ul{
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 20;
+}
+
+#floor-1f .f1_left .f1_left_top ul li{
+	width: 210px;
+	height: 360px;
+	float: left;
+}
+
+#floor-1f .f1_left .f1_left_top .con{
+	position: absolute;
+	left: 30%;
+	bottom: 5%;
+	z-index: 21;
+}
+
+#floor-1f .f1_left .f1_left_top .con a{
+	display: block;
+	width: 40px;
+	height: 5px;
+	float: left;
+	z-index: 21;
+	background-color: #666666;
+}
+
+#floor-1f .f1_left .f1_left_top .con a.active{
+	background-color: #90C221;
 }
 
 #floor-1f .f1_left .f1_left_bottom{
-	width: 215px;
+	width: 210px;
 	height: 360px;
-	background-color: royalblue;
+	background-color: #f7f7f7;
+	border: 1px solid #E9E9E9;
+	box-sizing: border-box;
+}
+
+#floor-1f .f1_left .f1_left_bottom .f1_left_hot{
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	color: #333333;
+	font-size: 16px;
+	
+}
+
+#floor-1f .f1_left .f1_left_bottom .f1_left_ul{
+	width: 210px;
+	height: 310px;
+	padding: 0 0 0 9px;
+}
+
+#floor-1f .f1_left .f1_left_bottom .f1_left_ul li{
+	width: 190px;
+	height: 88px;
+	margin-bottom: 14px;
+	position: relative;
+	cursor: pointer;
+}
+
+#floor-1f .f1_left .f1_left_bottom .f1_left_ul li .f1_left_img{
+	width: 68px;
+	height: 68px;
+	position: absolute;
+	left: 0;
+	top: 18px;
+}
+
+#floor-1f .f1_left .f1_left_bottom .f1_left_ul li .f1_left_name{
+	width: 108px;
+	padding: 0 3px 0 0;
+	font-size: 12px;
+	color: #666666;
+	position: absolute;
+	right: 0;
+	top: 18px;
+}
+
+#floor-1f .f1_left .f1_left_bottom .f1_left_ul li .f1_left_name:hover{
+	color: #FF6600;
+}
+
+#floor-1f .f1_left .f1_left_bottom .f1_left_ul li .f1_left_price{
+	width: 108px;
+	padding: 0 3px 0 0;
+	font-size: 12px;
+	color: #FF6600;
+	position: absolute;
+	right: 0;
+	top: 50px;
+}
+
+#floor-1f .f1_left .f1_left_bottom .f1_left_ul li .f1_left_price span{
+	margin-left: 20px;
+	color: #999999;
+	text-decoration: line-through;
+}
+
+#floor-1f .f1_left .f1_left_bottom .f1_left_ul li .f1_left_xingxing{
+	width: 108px;
+	height: 15px;
+	padding: 0 3px 0 0;
+	position: absolute;
+	right: 0;
+	top: 70px;
+		
+}
+
+#floor-1f .f1_left .f1_left_bottom .f1_left_ul li .f1_left_xingxing .xx1{
+	display: inline-block;
+	width: 84px;
+	height: 15px;
+	background: url("../img/tubiao.png") no-repeat;
+	background-position: -367px -55px;
+	
+}
+
+#floor-1f .f1_left .f1_left_bottom .f1_left_ul li .f1_left_corner1{
+	width: 190px;
+	height: 33px;
+	background: url("../img/f_hot_bg.png") no-repeat;
+	background-position: 0 0;
+	position: absolute;
+	top: 0;
+	left:0;
 }
 
 #floor-1f .f1_right{
-	width: 985px;
+	width: 990px;
 	height: 720px;
-	background-color: teal;
+}
+
+#floor-1f .f1_right .right_item{
+	width: 245px;
+	height: 238px;
+	margin: 1px 1px 0 0;
+	padding: 10px 10px 0 10px;
+	border: 1px solid #CCCCCC;
+	position: relative;
+	float: left;
+}
+
+#floor-1f .f1_right .right_item img:hover{
+	margin-left: -5px;
+	transition: all 0.2s linear;
+}
+
+#floor-1f .f1_right .right_item .right_item_price{
+	display: block;
+	color: #FF6600;
+	height: 24px;
+	line-height: 24px;
+	font-size: 16px;
+	
+}
+
+#floor-1f .f1_right .right_item .right_item_name{
+	display: block;
+	font-size: 12px;
+	height: 16px;
+	line-height: 16px;
+	color: #666666;
+	cursor: pointer;
+}
+
+#floor-1f .f1_right .right_item .right_item_name:hover{
+	color: #FF6600;
+}
+
+#floor-1f .f1_right .right_item .right_item_sales{
+	font-size: 12px;
+	color: #FF6600;
+}
+
+/*楼层广告位*/
+#lcgg{
+	width: 100%;
+	height: 100%;
+	
+}
+
+#lcgg .container{
+	height: 360px;
+	margin-top: 20px;
+}
+
+#lcgg ul{
+	height: 360px;
+}
+
+#lcgg ul li{
+	width: 292px;
+	height: 160px;
+	float: left;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+#lcgg ul li a{
+	display: block;
+	width: 292px;
+	height: 160px;
+	
+}
+#lcgg ul li a img{
+	width: 292px;
 }
 
 /*左侧边栏*/
