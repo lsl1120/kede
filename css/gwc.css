@@ -1,0 +1,18 @@
+/*头部logo*/
+
+#gwclogo{
+	width: 100%;
+	height: 100%;
+}
+
+#gwclogo .container{
+	height: 100px;
+	/*background-color: paleturquoise;*/
+}
+
+#gwclogo .logo_img{
+	height: 100px;
+	width: 196px;
+	/*background-color: palevioletred;*/
+	line-height: 100px;
+}

@@ -8,6 +8,7 @@ $(function(){
 	});
 	
 	//第一层数据渲染
+	$goodid = null;
 	$.ajax({	
 		type:"POST",
 		url:"../api/list.php",
@@ -16,17 +17,24 @@ $(function(){
 		success:function(str){
 			var str = JSON.parse(str);
 			var html='';
-
+			console.log(str)
 			for (var i =0; i < str.length; i++) {
-				 html += `<li>
-							<a href="#">
+				 html += `<li class="tzxq">
+							<a data-id="${str[i].lid}">
 								<img src="${str[i].img}"/>
 							</a>
 						</li>`;
-			
+//				console.log(str[i].id)
 			}
+			
+			
 		
 			$('#tupian_1f ul').html(html);
+			$('#tupian_1f ul li a').click(function(){
+				$did = $(this).attr('data-id');
+				setCookie('goodid',$did,30,'/');
+				window.location.href = 'xiangqing.html';
+			})
 			
 			$len = $('#tupian_1f ul li').size();
 			for ($i = $len; $i>0; $i-=3) {
@@ -36,6 +44,7 @@ $(function(){
 		}
 		
 	});
+	
 	
 	
 	//二层图片数据渲染

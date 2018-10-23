@@ -2,15 +2,14 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>列表页_可得_彩瞳</title>
+		<title>彩瞳详情页</title>
 		<link rel="stylesheet" type="text/css" href="../css/base.css"/>
 		<link rel="stylesheet" type="text/css" href="../css/ggys.css"/>
-		<link rel="stylesheet" type="text/css" href="../css/list_box.css"/>
-		<link rel="stylesheet" type="text/css" href="../css/opacity.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/xiangqing.css"/>
+		
 	</head>
 	<body>
-		<div id="list_box">
-			<!--最上层头部-->
+		<div id="box">
 			<div id="header">
 				<div class="container">
 					<div class="c-left fl">
@@ -19,8 +18,8 @@
 						</div>
 						<div class="c-left-r fl">
 							<span>您好，欢迎光临可得眼镜网！</span>
-							<a href="../html/login.html" class="to_login">登录</a>
-							<a href="../html/res.html" class="to_register">[免费注册]</a>
+							<a href="html/login.html" class="to_login">登录</a>
+							<a href="html/res.html" class="to_register">[免费注册]</a>
 						</div>
 					</div>
 					<div class="c-right fr">
@@ -187,7 +186,7 @@
 							<a href="#">海外购</a>
 						</li>
 						<li class="item">
-							<a href="#">彩瞳</a>
+							<a href="../html/list.html">彩瞳</a>
 						</li>
 						<li class="item">
 							<a href="#">隐形眼镜</a>
@@ -209,60 +208,103 @@
 				
 			</div>
 			
-			<!--轮播图-->
-			<div id="lunbotu">
-				<div class="w1004 moudel_box">
-    				<div id="carousel-big" class="carousel-big ">
-        			<div id="carousel-center" class="carousel-center clearfix">
-            			<a href="/" class="carousel-banner" style="z-index:1;opacity:1;filter:'alpha(opacity=100)';background:red url('../img/banner1.jpg') no-repeat center center"></a>
-            			<a href="/" class="carousel-banner" style="background:blue url('../img/banner4.jpg') no-repeat center center"></a>
-        			</div>
-        				<a href="javascript:;" id="carousel-left-btn"></a>
-        				<a href="javascript:;" id="carousel-right-btn"></a>
-    				</div>
-				</div>
-			</div>
-			
-			<!--第一层图片列表-->
-			<div id="tupian_1f">
+			<!--详情放大镜-->
+			<div id="fangdajing">
 				<div class="container">
-					<ul>
-						<!--<li>
-							<a href="#">
-								<img src="../img/list_img/mt_a1.jpg"/>
-							</a>
-						</li>-->
-					</ul>
-					
-				</div>
-			</div>
-			
-			<!--第二层图片列表-->
-			<div id="tupian_2f">
-				<div class="container">
-					<div class="f2_top"></div>
-					<div class="f2_bottom">
-						<ul>
-							<!--<li>
-								<div class="fb_img">
-									<a href="#">
-										<img src="../img/list_img/cp15.jpg"/>
-									</a>
+					<div class="imgdet wrap fl">
+					        <!-- 左侧图片列表 -->
+					        <div class="imglist">
+					            <ul>
+					                <!--<li class="active">
+					                    <img src="../img/xiangqing/046113dc-29fb-4b3d-a0aa-e8ef6d4e1a47-400-400.jpg" alt="">
+					                </li>
+					                <li>
+					                    <img src="../img/xiangqing/1bccbbe1-01eb-4ba6-956b-0f28586efe9e-400-400.jpg" alt="">
+					                </li>
+					                <li>
+					                    <img src="../img/xiangqing/3a2ad518-6d44-403e-89f6-50117b3d34f3-400-400.jpg" alt="">
+					                </li>
+					                <li>
+					                    <img src="../img/xiangqing/74aafce6-47c3-4b42-8df8-cc735a057ce6-400-400.jpg" alt="">
+					                </li>
+					                <li>
+					                    <img src="../img/xiangqing/9a08c49f-6e31-45f9-b9bc-092516675b21-400-400.jpg" alt="">
+					                </li>-->
+					            </ul>
+					        </div>
+					        <div class="imgpart">
+					            <!-- 图片展示 -->
+					            <div class="pic">
+					                <img src="../img/xiangqing/046113dc-29fb-4b3d-a0aa-e8ef6d4e1a47-400-400.jpg" alt="">
+					                <!-- 镜片 -->
+					                <div class="magnify"></div>
+					            </div>
+					            <!-- 放大后的图片, 放大后的图片的尺寸要设置为展示图片的倍数（2倍）-->
+					            <div class="bigpic">
+					                <img src="../img/xiangqing/046113dc-29fb-4b3d-a0aa-e8ef6d4e1a47-400-400.jpg" alt="">
+					            </div>
+					        </div>
+					        
+					        
+    					</div>
+    					
+					<div class="fdj_right fr">
+						<div class="fdj_right_content fl">
+							<div class="right_content1">
+								<span>心の拉花美妆彩瞳日抛30片装LA-3心动卡布</span>
+								<b>包邮</b>
+								<p>自然甜美的花色，水润闪耀</p>
+							</div>
+							<div class="right_content2">
+								<div class="right_content2_price fl">
+									<div class="content2_price1 fl">促销价：</div>
+									<div class="content2_price2 fl">￥139.00</div>
+									<div class="content2_price3 fl">已降60.00元</div>
+									<div class="content2_price4 fl">
+										可得价：
+										<b>￥199.00</b>
+									</div>
+									
+									
 								</div>
-								<div class="fb_box">
-									<p class="fb_name1">GIVRE绮芙莉月抛彩色隐形眼镜1片装</p>
-									<p class="fb_name2">
-										<b class="fuhao">￥</b>
-										<b>36.00</b>
-									</p>
+								
+								<div class="cuxiao">
+									<div class="cuxiao1 fl">促销信息:</div>
+									<div class="cuxiao2 fl">
+										<p>
+											<b>赠品</b>
+											<a href="#">
+												<img src="../img/xiangqing/da1f1b86-729a-423e-8404-40b6693df3e7-130-130.jpg"/>
+											</a>
+											<label>购物满100元赠可得刮刮卡（限赠1）</label>
+										</p>
+									</div>
 								</div>
-							</li>-->
-						</ul>
+								
+								<div class="shuliang">
+									<input type="button" id="jian" value="-" />
+									<input type="text" id="sl" value="1" />
+									<input type="button" id="jia" value="+" />
+								</div>
+								
+								
+								
+							</div>
+							
+							<div class="jrgwc">
+								<input type="button" id="gwcbtn" value="加入购物车" />
+							</div>
+						</div>
+						<div class="erweima fr">
+							<img src="../img/xiangqing/qrcode_115.jpg"/>
+							<p>手机扫购更方便</p>
+						</div>
 					</div>
 				</div>
+				
 			</div>
 			
-			<!--尾部-->
+						<!--底部-->
 			<div id="footed">
 				<div class="container">
 					
@@ -349,22 +391,7 @@
 		</div>
 		
 	</body>
-</html>
-<script src="../js/jquery-1.10.1.min.js" type="text/javascript" charset="utf-8"></script>
-<script src="../js/list.js" type="text/javascript" charset="utf-8"></script>
-<script src="../js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
-<script src="../js/opacity.js" type="text/javascript" charset="utf-8"></script>
+</html><script src="../js/jquery-1.10.1.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="../js/ajax.js" type="text/javascript" charset="utf-8"></script>
+<script src="../js/xiangqing.js" type="text/javascript" charset="utf-8"></script>
 <script src="../js/cookie.js" type="text/javascript" charset="utf-8"></script>
-<script>
-    // 传入图片的宽和高
-    $("#carousel-big a").carousel({
-        W : '100%',
-        H : 500,
-        speed : 2000,
-        //是否循环轮播如果设置该属性，那么会到最后的一个的时候停止轮播
-        isloop : false,//默认为false
-        iscarousel : true//默认为true
-        //是否开启轮播模式
-    });
-</script>
-

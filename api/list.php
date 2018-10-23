@@ -1,10 +1,16 @@
 <?php
 	include 'connect.php';
 	
+	$did =isset($_POST['did']) ? $_POST['did'] : '';
+	
 	$sql = "select * from list_sql";
+	if($did){
+		$sql = "select * from list_sql WHERE lid = $did";
+	}
 	
+	$res = $conn -> query('SET NAMES utf8');
 	$res = $conn -> query($sql);
-	
+		
 	$row=$res -> fetch_all(MYSQLI_ASSOC);
 	
 	
